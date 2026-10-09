@@ -4,6 +4,9 @@ import java.util.ArrayList;
 public class Mundo {
 	private ArrayList<Persona> LosPersonajes = new ArrayList<>();
 	
+	public ArrayList<Persona> getLosPersonajes(){
+		return LosPersonajes;
+	}
 	public void agregarPersona(Persona p) {
 		this.LosPersonajes.add(p);
 	}
